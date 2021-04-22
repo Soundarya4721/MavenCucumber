@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.409659">
+    <testcase classname="Free CRM create contacts" name="Free CRM create a new contact scenario" time="0.40864">
+        <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/ltatavarthy/Documents/chromedriver/chromedriver&#10;&#9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#10;&#9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#10;&#9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#10;&#9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#10;&#9;at stepDefinitions.LoginTestStepDefintion.url_is_opened(LoginTestStepDefintion.java:22)&#10;&#9;at ✽.Given &quot;https://classic.crmpro.com/&quot; is opened(/Users/ltatavarthy/EclipsPractice/Maven_Cucumber/src/main/java/feature/contact.feature:4)&#10;">
+            <![CDATA[Given "https://classic.crmpro.com/" is opened...............................failed
+When CRM Screen opens.......................................................skipped
+Then Enter "batchautomation" and "Test@12345"...............................skipped
+Then Hit on the logon.......................................................skipped
+Then user moves to new contact page.........................................skipped
+Then user types sasi and soumi and HR.......................................undefined
+Then close the browser......................................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable does not exist: /Users/ltatavarthy/Documents/chromedriver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at stepDefinitions.LoginTestStepDefintion.url_is_opened(LoginTestStepDefintion.java:22)
+	at ✽.Given "https://classic.crmpro.com/" is opened(/Users/ltatavarthy/EclipsPractice/Maven_Cucumber/src/main/java/feature/contact.feature:4)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Free CRM create contacts" name="Free CRM create a new contact scenario 2" time="0.001019">
+        <failure message="java.lang.IllegalStateException: The driver executable does not exist: /Users/ltatavarthy/Documents/chromedriver/chromedriver&#10;&#9;at com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#10;&#9;at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)&#10;&#9;at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#10;&#9;at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#10;&#9;at stepDefinitions.LoginTestStepDefintion.url_is_opened(LoginTestStepDefintion.java:22)&#10;&#9;at ✽.Given &quot;https://classic.crmpro.com/&quot; is opened(/Users/ltatavarthy/EclipsPractice/Maven_Cucumber/src/main/java/feature/contact.feature:4)&#10;">
+            <![CDATA[Given "https://classic.crmpro.com/" is opened...............................failed
+When CRM Screen opens.......................................................skipped
+Then Enter "batchautomation" and "Test@12345"...............................skipped
+Then Hit on the logon.......................................................skipped
+Then user moves to new contact page.........................................skipped
+Then user types mani and tej and HR.........................................undefined
+Then close the browser......................................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The driver executable does not exist: /Users/ltatavarthy/Documents/chromedriver/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at stepDefinitions.LoginTestStepDefintion.url_is_opened(LoginTestStepDefintion.java:22)
+	at ✽.Given "https://classic.crmpro.com/" is opened(/Users/ltatavarthy/EclipsPractice/Maven_Cucumber/src/main/java/feature/contact.feature:4)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
